@@ -24,3 +24,16 @@
 - native javascript
 - bem
 - git
+
+## Code example
+```
+function generatePassword(length) {
+  const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,!@#$%^&*()-+/_?='
+  let password = ''
+  for (let i = 0; i < length; i++) {
+    let randomSign = Math.floor(Math.random() * charset.length)
+    password += charset[randomSign]
+  }
+  return password
+}
+```
