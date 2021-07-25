@@ -42,3 +42,40 @@ a {
   font-size: 1.6em;
   color: #abcabc;
 }
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+}
+.title {
+  font-size: 1.6em;
+}
+.profile {
+  background-color: #abcabc;
+  padding: 20px;
+  max-width: 30%;
+}
+.profile__photo {
+  text-align: center;
+  margin: 30px 0;
+}
+.profile__photo img {
+  border-radius: 50%;
+  max-width: 300px;
+}
+.info {
+  margin-bottom: 30px;
+}
+.info__item,
+.contact__item {
+  margin: 5px 0;
+}
+.info__item span,
+.contact__item span {
+  font-weight: 700;
+  padding-right: 10px;
+}
+.contact__link {
+  color: inherit;
+}
