@@ -1,0 +1,139 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", Verdana, sans-serif;
+  background-color: #f1f1f1;
+  color: #2C303B;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+::selection {
+  background-color: #2C303B;
+  color: #abcabc;
+}
+.header__inner {
+  width: 1260px;
+  margin: 10px auto 0;
+  text-align: center;
+  background-color: #abcabc;
+}
+.header__bottom {
+  background-color: #2C303B;
+}
+.header-title {
+  font-size: 3em;
+}
+.header-subtitle {
+  font-size: 1.6em;
+  color: #abcabc;
+}
+.wrapper {
+  width: 1260px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+}
+.title {
+  font-size: 1.6em;
+}
+.profile {
+  background-color: #abcabc;
+  padding: 20px;
+  max-width: 30%;
+}
+.profile__photo {
+  text-align: center;
+  margin: 30px 0;
+}
+.profile__photo img {
+  border-radius: 50%;
+  max-width: 270px;
+}
+.info {
+  margin-bottom: 30px;
+}
+.info__item,
+.contact__item {
+  margin: 5px 0;
+}
+.info__item span,
+.contact__item span {
+  font-weight: 700;
+  padding-right: 10px;
+}
+.contact__link {
+  color: inherit;
+}
+.main {
+  padding: 20px;
+}
+.section__title {
+  font-size: 1.7em;
+}
+.about,
+.skills,
+.code,
+.eduaction {
+  margin-bottom: 10px;
+}
+.about__text {
+  font-size: 1.2em;
+}
+.skills__list {
+  padding-left: 30px;
+}
+.skills__item {
+  text-transform: uppercase;
+}
+.code-img{
+  max-width: 100%;
+}
+.education__item {
+  padding: 5px 0;
+}
+.english-text {
+  font-size: 1.2em;
+}
+.footer__inner {
+  width: 1260px;
+  margin: 0 auto;
+  background-color: #abcabc;
+  border-top: 35px solid #2C303B;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.footer__item {
+  padding: 10px 0;
+}
+.footer__link {
+  font-size: 1.2em;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer__link-gh {
+  height: 30px;
+}
+.footer__link-rs {
+ height: 40px;
+}
