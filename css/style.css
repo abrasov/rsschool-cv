@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", Verdana, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+::selection {
+  background-color: #333;
+  color: #abcabc;
+}
+.header__inner {
+  width: 1200px;
+  margin: 10px auto 0;
+  text-align: center;
+  background-color: #abcabc;
+}
+.header__bottom {
+  background-color: #333;
+}
+.header-title {
+  font-size: 3em;
+}
+.header-subtitle {
+  font-size: 1.6em;
+  color: #abcabc;
+}
