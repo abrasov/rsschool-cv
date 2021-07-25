@@ -87,8 +87,9 @@ a {
 }
 .about,
 .skills,
-.code {
-  margin-bottom: 30px;
+.code,
+.eduaction {
+  margin-bottom: 10px;
 }
 .about__text {
   font-size: 1.2em;
@@ -101,4 +102,10 @@ a {
 }
 .code-img{
   max-width: 100%;
+}
+.education__item {
+  padding: 5px 0;
+}
+.english-text {
+  font-size: 1.2em;
 }
