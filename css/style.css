@@ -85,9 +85,16 @@ a {
 .section__title {
   font-size: 1.7em;
 }
-.about {
+.about,
+.skills {
   margin-bottom: 30px;
 }
 .about__text {
   font-size: 1.2em;
+}
+.skills__list {
+  padding-left: 30px;
+}
+.skills__item {
+  text-transform: uppercase;
 }
