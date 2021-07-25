@@ -79,3 +79,15 @@ a {
 .contact__link {
   color: inherit;
 }
+.main {
+  padding: 20px;
+}
+.section__title {
+  font-size: 1.7em;
+}
+.about {
+  margin-bottom: 30px;
+}
+.about__text {
+  font-size: 1.2em;
+}
