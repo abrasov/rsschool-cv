@@ -14,7 +14,7 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", Verdana, sans-serif;
   background-color: #f1f1f1;
-  color: #333;
+  color: #2C303B;
 }
 li {
   list-style: none;
@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 ::selection {
-  background-color: #333;
+  background-color: #2C303B;
   color: #abcabc;
 }
 .header__inner {
@@ -33,7 +33,7 @@ a {
   background-color: #abcabc;
 }
 .header__bottom {
-  background-color: #333;
+  background-color: #2C303B;
 }
 .header-title {
   font-size: 3em;
@@ -86,7 +86,8 @@ a {
   font-size: 1.7em;
 }
 .about,
-.skills {
+.skills,
+.code {
   margin-bottom: 30px;
 }
 .about__text {
@@ -97,4 +98,7 @@ a {
 }
 .skills__item {
   text-transform: uppercase;
+}
+.code-img{
+  max-width: 100%;
 }
