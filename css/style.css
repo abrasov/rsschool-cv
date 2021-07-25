@@ -27,7 +27,7 @@ a {
   color: #abcabc;
 }
 .header__inner {
-  width: 1200px;
+  width: 1260px;
   margin: 10px auto 0;
   text-align: center;
   background-color: #abcabc;
@@ -43,7 +43,7 @@ a {
   color: #abcabc;
 }
 .wrapper {
-  width: 1200px;
+  width: 1260px;
   margin: 0 auto;
   background-color: #fff;
   display: flex;
@@ -62,7 +62,7 @@ a {
 }
 .profile__photo img {
   border-radius: 50%;
-  max-width: 300px;
+  max-width: 270px;
 }
 .info {
   margin-bottom: 30px;
@@ -110,10 +110,10 @@ a {
   font-size: 1.2em;
 }
 .footer__inner {
-  width: 1200px;
+  width: 1260px;
   margin: 0 auto;
   background-color: #abcabc;
-  border-top: 20px solid #2C303B;
+  border-top: 35px solid #2C303B;
 }
 .footer__list {
   display: flex;
