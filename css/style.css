@@ -109,3 +109,31 @@ a {
 .english-text {
   font-size: 1.2em;
 }
+.footer__inner {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #abcabc;
+  border-top: 20px solid #2C303B;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.footer__item {
+  padding: 10px 0;
+}
+.footer__link {
+  font-size: 1.2em;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer__link-gh {
+  height: 30px;
+}
+.footer__link-rs {
+ height: 40px;
+}
