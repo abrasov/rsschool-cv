@@ -10,110 +10,134 @@
     <title>CV - Abrasov Sergei</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__inner">
-        <h1 class="header-title">Abrasov Sergei</h1>
-        <div class="header__bottom">
-          <h2 class="header-subtitle">junior developer</h2>
+    <div class="page">
+      <header class="header">
+        <div class="header__inner">
+          <h1 class="header-title">Abrasov Sergei</h1>
+          <div class="header__bottom">
+            <h2 class="header-subtitle">junior developer</h2>
+          </div>
         </div>
-      </div>
-    </header>
-    <div class="wrapper">
-      <aside class="profile">
-        <div class="profile__photo">
-          <img src="./images/photo-avatar.jpg" alt="profile's photo">
-        </div>
-        <div class="profile__info info">
-          <h3 class="info__title title">Personal information</h3>
-          <ul class="info__list">
-            <li class="info__item"><span>Name:</span>Sergei Abrasov</li>
-            <li class="info__item"><span>Age:</span>27</li>
-            <li class="info__item"><span>Location:</span>Moscow</li>
-          </ul>
-        </div>
-        <div class="profile__contact contact">
-          <h3 class="contact__title title">Contacts</h3>
-          <ul class="contact__list">
-            <li class="contact__item">
-              <span>Telegram:</span>
-              <a href="https://t.me/myRandomize" class="contact__link">@myRandomize</a>
-            </li>
-            <li class="contact__item">
-              <span>Discord:</span>abrasov#8528
-            </li>
-            <li class="contact__item">
-              <span>Email:</span>abrasov.dev@gmail.com
-            </li>
-          </ul>
-        </div>
-      </aside>
-      <main class="main">
-        <section class="about">
-          <h3 class="section__title">About me</h3>
-          <p class="about__text">
-            My first experience with programming occurred 15 years ago. After that I studied Pascal at the university, and wrote many applications on Delphi. However, it took me a long time before I realized that I wanted to commit with programming.
-          </p>
-        </section>
-        <section class="skills">
-          <h3 class="section__title">Skills</h3>
-          <ul class="skills__list">
-            <li class="skills__item">html</li>
-            <li class="skills__item">css / scss</li>
-            <li class="skills__item">javascript</li>
-            <li class="skills__item">bem</li>
-            <li class="skills__item">git</li>
-          </ul>
-        </section>
-        <section class="code">
-          <h3 class="section__title">Code example</h3>
-          <pre>
-            <code class="js">
-function isPrime(num) {
-  if (num < 2) {
-    return false;
-  } else {
-    let i = 2;
-    while (i * i <= num) {
-      if (num % i === 0){
-        return false;
-        break;
+      </header>
+      <div class="wrapper">
+        <aside class="profile">
+          <div class="profile__photo">
+            <img src="./images/photo-avatar.jpg" alt="profile's photo">
+          </div>
+          <div class="profile__info info">
+            <h3 class="info__title title">Personal information</h3>
+            <ul class="info__list">
+              <li class="info__item"><span>Name:</span>Sergei Abrasov</li>
+              <li class="info__item"><span>Age:</span>27</li>
+              <li class="info__item"><span>Location:</span>Moscow</li>
+            </ul>
+          </div>
+          <div class="profile__contact contact">
+            <h3 class="contact__title title">Contacts</h3>
+            <ul class="contact__list">
+              <li class="contact__item">
+                <span>Telegram:</span>
+                <a href="https://t.me/myRandomize" class="contact__link">@myRandomize</a>
+              </li>
+              <li class="contact__item">
+                <span>Discord:</span>abrasov#8528
+              </li>
+              <li class="contact__item">
+                <span>Email:</span>abrasov.dev@gmail.com
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <main class="main">
+          <section class="about">
+            <h3 class="section__title">About me</h3>
+            <p class="about__text">
+              My first experience with programming occurred 15 years ago with QBasic. After that I studied Pascal at the university, and wrote many applications on Delphi. However, it took me a long time before I realized that I wanted to commit with programming.
+            </p>
+          </section>
+          <section class="skills">
+            <h3 class="section__title">Skills</h3>
+            <ul class="skills__list">
+              <li class="skills__item">html</li>
+              <li class="skills__item">css / scss</li>
+              <li class="skills__item">javascript</li>
+              <li class="skills__item">bem</li>
+              <li class="skills__item">git</li>
+            </ul>
+          </section>
+          <section class="code">
+            <h3 class="section__title">Code example</h3>
+            <pre><code>function isPrime(num) {
+    if (num < 2) {
+      return false;
+    } else {
+      let i = 2;
+      while (i * i <= num) {
+        if (num % i === 0){
+          return false;
+          break;
+        }
+        i++;
       }
-      i++;
+      return true;
     }
-    return true;
-  }
-}
-            </code>
-          </pre>
-        </section>
-        <section class="education">
-          <h3 class="section__title">Education</h3>
-          <ul class="education__list">
-            <li class="education__item">Bachelor's degree (2020) - Moscow Polytech University - Administration in technical systems</li>
-            <li class="education__item">Trained on RS2021Q1, but stopped at Stage#2</li>
-          </ul>
-        </section>
-        <section class="english">
-          <h3 class="section__title">English level</h3>
-          <p class="english-text">B1</p>
-        </section>
-      </main>
-    </div>
-    <footer class="footer">
-      <div class="footer__inner">
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a href="https://github.com/abrasov" class="footer__link" target="_blank">
-              <img src="./images/github.svg" class="footer__link-gh" alt="github-link">abrasov
-            </a>
-          </li>
-          <li class="footer__item">2021</li>
-          <li class="footer__item">
-            <a href="https://rs.school/js/" class="footer__link" target="_blank">
-            <img src="./images/rs_school_js.svg" class="footer__link-rs" alt="rs-school-link"></a>
-          </li>
-        </ul>
+  }</code></pre>
+          </section>
+          <section class="projects">
+            <h3 class="section__title">Recent projects</h3>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a href="https://rolling-scopes-school.github.io/abrasov-JSFEPRESCHOOL/drum-kit/" class="projects__link" target="_blank">
+                  <h4 class="projects__title">JS30 - Drum Kit</h4>
+                  <div class="projects-screenshot">
+                    <img src="./images/projects-drumkit.png" alt="drumkit" class="projects__image">
+                  </div>
+                  <div class="projects__tags">
+                    <span class="projects__tag">DOM</span>
+                    <span class="projects__tag">audio</span>
+                  </div>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a href="https://rolling-scopes-school.github.io/abrasov-JSFEPRESCHOOL/photofilter/" class="projects__link" target="_blank">
+                  <h4 class="projects__title">JS30 - Photofilter</h4>
+                  <div class="projects-screenshot">
+                    <img src="./images/projects-photo.png" alt="photofilter" class="projects__image">
+                  </div>
+                  <div class="projects__tags">
+                    <span class="projects__tag">DOM</span>
+                    <span class="projects__tag">CSS variables</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="education">
+            <h3 class="section__title">Education</h3>
+            <p class="education__item">Bachelor's degree (2020) - Moscow Polytech University - Administration in technical systems</p>
+          </section>
+          <section class="english">
+            <h3 class="section__title">English level</h3>
+            <p class="english-text">A2 / B1</p>
+          </section>
+        </main>
       </div>
+      <footer class="footer">
+        <div class="footer__inner">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="https://github.com/abrasov" class="footer__link" target="_blank">
+                <img src="./images/github.svg" class="footer__link-gh" alt="github-link">abrasov
+              </a>
+            </li>
+            <li class="footer__item">2021</li>
+            <li class="footer__item">
+              <a href="https://rs.school/js/" class="footer__link" target="_blank">
+              <img src="./images/rs_school_js.svg" class="footer__link-rs" alt="rs-school-link"></a>
+            </li>
+          </ul>
+        </div>
     </footer>
-  </body>
+  </div>
+</body>
 </html>
