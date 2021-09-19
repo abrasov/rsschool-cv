@@ -44,6 +44,11 @@ a {
 .header__bottom {
   background-color: #2C303B;
 }
+.header-subtitle {
+  padding: 5px;
+  color: #abcabc;
+  text-transform: capitalize;
+}
 .header__nav {
   height: 60px;
   position: relative;
