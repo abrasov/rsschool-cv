@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="./css/style.css" />
     <title>CV - Abrasov Sergei</title>
   </head>
@@ -21,7 +24,7 @@
           <img src="./images/photo-avatar.jpg" alt="profile's photo">
         </div>
         <div class="profile__info info">
-          <h3 class="info__title title">Personal information:</h3>
+          <h3 class="info__title title">Personal information</h3>
           <ul class="info__list">
             <li class="info__item"><span>Name:</span>Sergei Abrasov</li>
             <li class="info__item"><span>Age:</span>27</li>
@@ -29,7 +32,7 @@
           </ul>
         </div>
         <div class="profile__contact contact">
-          <h3 class="contact__title title">How to contact me:</h3>
+          <h3 class="contact__title title">Contacts</h3>
           <ul class="contact__list">
             <li class="contact__item">
               <span>Telegram:</span>
@@ -52,7 +55,7 @@
           </p>
         </section>
         <section class="skills">
-          <h3 class="section__title">Skills:</h3>
+          <h3 class="section__title">Skills</h3>
           <ul class="skills__list">
             <li class="skills__item">html</li>
             <li class="skills__item">css / scss</li>
@@ -62,8 +65,26 @@
           </ul>
         </section>
         <section class="code">
-          <h3 class="section__title">Code example:</h3>
-          <img src="./images/code-example.jpg" alt="code" class="code-img">
+          <h3 class="section__title">Code example</h3>
+          <pre>
+            <code class="js">
+function isPrime(num) {
+  if (num < 2) {
+    return false;
+  } else {
+    let i = 2;
+    while (i * i <= num) {
+      if (num % i === 0){
+        return false;
+        break;
+      }
+      i++;
+    }
+    return true;
+  }
+}
+            </code>
+          </pre>
         </section>
         <section class="education">
           <h3 class="section__title">Education</h3>
