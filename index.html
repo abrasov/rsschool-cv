@@ -15,7 +15,28 @@
         <div class="header__inner">
           <h1 class="header-title">Abrasov Sergei</h1>
           <div class="header__bottom">
-            <h2 class="header-subtitle">junior developer</h2>
+            <nav class="header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#about" class="nav__link">about me</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contacts" class="nav__link">contacts</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#skills" class="nav__link">skills</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#code" class="nav__link">code example</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#projects" class="nav__link">projects</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#education" class="nav__link">education</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
@@ -24,7 +45,7 @@
           <div class="profile__photo">
             <img src="./images/photo-avatar.jpg" alt="profile's photo">
           </div>
-          <div class="profile__info info">
+          <div class="profile__info info" id="contacts">
             <h3 class="info__title title">Personal information</h3>
             <ul class="info__list">
               <li class="info__item"><span>Name:</span>Sergei Abrasov</li>
@@ -49,13 +70,13 @@
           </div>
         </aside>
         <main class="main">
-          <section class="about">
+          <section class="about" id="about">
             <h3 class="section__title">About me</h3>
             <p class="about__text">
               My first experience with programming occurred 15 years ago with QBasic. After that I studied Pascal at the university, and wrote many applications on Delphi. However, it took me a long time before I realized that I wanted to commit with programming.
             </p>
           </section>
-          <section class="skills">
+          <section class="skills" id="skills">
             <h3 class="section__title">Skills</h3>
             <ul class="skills__list">
               <li class="skills__item">html</li>
@@ -65,7 +86,7 @@
               <li class="skills__item">git</li>
             </ul>
           </section>
-          <section class="code">
+          <section class="code" id="code">
             <h3 class="section__title">Code example</h3>
             <pre><code>function isPrime(num) {
     if (num < 2) {
@@ -83,7 +104,7 @@
     }
   }</code></pre>
           </section>
-          <section class="projects">
+          <section class="projects" id="projects">
             <h3 class="section__title">Projects</h3>
             <ul class="projects__list">
               <li class="projects__item">
@@ -112,7 +133,7 @@
               </li>
             </ul>
           </section>
-          <section class="education">
+          <section class="education" id="education">
             <h3 class="section__title">Education</h3>
             <p class="education__item">Bachelor's degree (2020) - Moscow Polytech University - Administration in technical systems</p>
           </section>

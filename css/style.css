@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 *,
 *::before,
@@ -37,16 +38,37 @@ a {
   text-align: center;
   background-color: #abcabc;
 }
-.header__bottom {
-  background-color: #2C303B;
-}
 .header-title {
   font-size: 3em;
 }
-.header-subtitle {
-  font-size: 1.6em;
-  color: #abcabc;
+.header__bottom {
+  background-color: #2C303B;
 }
+.header__nav {
+}
+.nav {
+}
+.nav__list {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__item {
+}
+.nav__link {
+  display: block;
+  padding: 12px 15px;
+  font-size: 1.8rem;
+  color: #abcabc;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+.nav__link:hover {
+  background-color: #abcabc;
+  color: #2C303B;
+}
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
